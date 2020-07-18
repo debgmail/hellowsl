@@ -1,6 +1,4 @@
-#include<iostream>
-#include<vector>
-#include <string>
+#include "hello.h"
 
 using namespace std;
 int main(){
@@ -12,7 +10,19 @@ int main(){
       cout << word << " ";
    }
    cout << endl;
+   cout << "enter number of days: ";
+   int nodays;
+   cin>>nodays;
+   simplemath(nodays);
+
 	return 0;
 
 
 }
+
+void simplemath(int no_days)
+{
+	cout << "Rishita you entered: "<< no_days <<endl;
+
+}
+
