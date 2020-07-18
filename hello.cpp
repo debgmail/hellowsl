@@ -10,7 +10,7 @@ int main(){
       cout << word << " ";
    }
    cout << endl;
-   cout << "enter number of days: ";
+   cout << "enter number of days you want to print: ";
    int nodays;
    cin>>nodays;
    simplemath(nodays);
